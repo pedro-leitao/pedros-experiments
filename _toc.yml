@@ -1,0 +1,16 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: How to's
+    chapters:
+      - file: howtos/apple-silicon-ml
+      - file: howtos/distributed-training
+  - caption: Experiments
+    chapters:
+      - file: experiments/instance_vs_model_learning
+      - file: experiments/ml-pipeline-sklearn
+      - file: experiments/sentiment-partI
+      - file: experiments/shakespeare-embeddings
